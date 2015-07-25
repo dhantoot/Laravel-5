@@ -10,7 +10,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Http\Request;
 
 class BookController extends BaseController
-{
+{ 
 
   public function index() {
     $results = DB::table('books')->get();
