@@ -3,7 +3,7 @@
   <div class="col-lg-2">
   </div>
   <div class="col-lg-8 well">
-    <form action="/updateBook/<?php echo $data->id;?>" method="post" role="form" >
+    <form action="/api/updateBook/<?php echo $data->id;?>" method="post" role="form" >
         <div class="form-group">
             <label for="first_name">ISBN</label>
             <input type="text" class="form-control" name="u-form-isbn" value="<?php echo $data->isbn;?>" />

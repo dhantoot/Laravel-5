@@ -3,7 +3,7 @@
   <div class="col-lg-2">
   </div>
   <div class="col-lg-8 well">
-    <form action="/insertToBooks" method="post" role="form" >
+    <form action="/api/insertbook" method="post" role="form" >
         <div class="form-group">
             <label for="first_name">ISBN</label>
             <input type="text" class="form-control" name="form-isbn" />

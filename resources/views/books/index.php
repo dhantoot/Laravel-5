@@ -6,6 +6,7 @@
    <div class="col-lg-8">
      <h1>BookStore</h1>
      <a href="/showform" class="btn btn-success">Create Book</a>
+     <a href="/showCommentForm" class="btn btn-primary">Comments here</a>
      <hr>
      <table class="table table-striped table-bordered table-hover">
          <thead>
@@ -42,9 +43,8 @@
         </tbody>
 
      </table>
-
+       <hr>
    </div>
    <div class="col-lg-2">
    </div>
-
  </div>
